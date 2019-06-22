@@ -25,8 +25,8 @@ test.each([
   ['sistem MasterCard', '5555555555554444', 'masterCard'],
   ['sistem Visa', '41111111', 'visa'],
   ['sistem MIR', '2200240942005725', 'mir'],
-  ['no sistem', '9889897', ''],
-  ['no sistem', '', ''],
+  ['no sistem num', '9889897', false],
+  ['no sistem space', '', false],
 ])('it should be %s', (_, input, expected) => {
   expect(defineSistem(input)).toBe(expected);
 });
