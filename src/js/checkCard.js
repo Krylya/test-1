@@ -6,7 +6,7 @@ export default class CheckCard {
     this.defineSistem = defineSistem;
     this.luhnAlgorithm = luhnAlgorithm;
 
-    console.log( this.luhnAlgorithm('') );
+    console.log(this.luhnAlgorithm(''));
 
     this.form = document.querySelector('[data-form=card-form]');
     this.cardInput = document.querySelector('[data-name=card-number]');
