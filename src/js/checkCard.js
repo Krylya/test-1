@@ -75,4 +75,4 @@ export default class CheckCard {
       this.cardInput.classList.add('valid');
     }
   }
-}
+}// end class
