@@ -1,4 +1,6 @@
 const luhnAlgorithm = (digits) => {
+  if(digits === '') return false;
+  
   let sum = 0;
 
   for (let i = 0; i < digits.length; i += 1) {
